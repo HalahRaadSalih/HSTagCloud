@@ -10,10 +10,9 @@
 		2B6CC8431B6EA7D500BCFECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC8421B6EA7D500BCFECA /* main.m */; };
 		2B6CC8461B6EA7D500BCFECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC8451B6EA7D500BCFECA /* AppDelegate.m */; };
 		2B6CC8491B6EA7D500BCFECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC8481B6EA7D500BCFECA /* ViewController.m */; };
-		2B6CC84C1B6EA7D500BCFECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC84A1B6EA7D500BCFECA /* Main.storyboard */; };
 		2B6CC84E1B6EA7D500BCFECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC84D1B6EA7D500BCFECA /* Images.xcassets */; };
-		2B6CC8511B6EA7D500BCFECA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC84F1B6EA7D500BCFECA /* LaunchScreen.xib */; };
 		2B6CC85D1B6EA7D500BCFECA /* HSTagCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC85C1B6EA7D500BCFECA /* HSTagCloudTests.m */; };
+		2B6CC8671B6EAB8100BCFECA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC8661B6EAB8100BCFECA /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,11 @@
 		2B6CC8451B6EA7D500BCFECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B6CC8471B6EA7D500BCFECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B6CC8481B6EA7D500BCFECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2B6CC84B1B6EA7D500BCFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B6CC84D1B6EA7D500BCFECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2B6CC8501B6EA7D500BCFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2B6CC8561B6EA7D500BCFECA /* HSTagCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSTagCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6CC85B1B6EA7D500BCFECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6CC85C1B6EA7D500BCFECA /* HSTagCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTagCloudTests.m; sourceTree = "<group>"; };
+		2B6CC8661B6EAB8100BCFECA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +61,7 @@
 		2B6CC8341B6EA7D400BCFECA = {
 			isa = PBXGroup;
 			children = (
+				2B6CC8661B6EAB8100BCFECA /* Default-568h@2x.png */,
 				2B6CC83F1B6EA7D500BCFECA /* HSTagCloud */,
 				2B6CC8591B6EA7D500BCFECA /* HSTagCloudTests */,
 				2B6CC83E1B6EA7D500BCFECA /* Products */,
@@ -85,9 +84,6 @@
 				2B6CC8451B6EA7D500BCFECA /* AppDelegate.m */,
 				2B6CC8471B6EA7D500BCFECA /* ViewController.h */,
 				2B6CC8481B6EA7D500BCFECA /* ViewController.m */,
-				2B6CC84A1B6EA7D500BCFECA /* Main.storyboard */,
-				2B6CC84D1B6EA7D500BCFECA /* Images.xcassets */,
-				2B6CC84F1B6EA7D500BCFECA /* LaunchScreen.xib */,
 				2B6CC8401B6EA7D500BCFECA /* Supporting Files */,
 			);
 			path = HSTagCloud;
@@ -96,6 +92,7 @@
 		2B6CC8401B6EA7D500BCFECA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B6CC84D1B6EA7D500BCFECA /* Images.xcassets */,
 				2B6CC8411B6EA7D500BCFECA /* Info.plist */,
 				2B6CC8421B6EA7D500BCFECA /* main.m */,
 			);
@@ -199,9 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6CC84C1B6EA7D500BCFECA /* Main.storyboard in Resources */,
-				2B6CC8511B6EA7D500BCFECA /* LaunchScreen.xib in Resources */,
 				2B6CC84E1B6EA7D500BCFECA /* Images.xcassets in Resources */,
+				2B6CC8671B6EAB8100BCFECA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +238,6 @@
 			targetProxy = 2B6CC8571B6EA7D500BCFECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2B6CC84A1B6EA7D500BCFECA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B6CC84B1B6EA7D500BCFECA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2B6CC84F1B6EA7D500BCFECA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B6CC8501B6EA7D500BCFECA /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B6CC85E1B6EA7D500BCFECA /* Debug */ = {
